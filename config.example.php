@@ -1,7 +1,6 @@
-<?php return array (
+<?php return [
   'debug' => false,
-  'database' =>
-  array (
+  'database' => [
     'driver' => 'mysql',
     'host' => 'localhost',
     'port' => 3306,
@@ -14,11 +13,10 @@
     'strict' => false,
     'engine' => 'InnoDB',
     'prefix_indexes' => true,
-  ),
+  ],
   'url' => 'http://127.0.0.1:8000',
-  'paths' =>
-  array (
+  'paths' => [
     'api' => 'api',
     'admin' => 'admin',
-  ),
-);
+  ],
+];
