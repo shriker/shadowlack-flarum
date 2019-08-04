@@ -1,0 +1,13 @@
+.DS_Store
+.idea
+.vagrant
+Thumbs.db
+composer.lock
+config.php
+core
+coverage
+server
+studio.json
+vendor
+vendor
+workbench
