@@ -3,9 +3,13 @@
 .vagrant
 Thumbs.db
 composer.lock
+composer.phar
 config.php
 core
 coverage
+node_modules
+npm-debug.log
+public/wiki/LocalSettings.php
 server
 studio.json
 vendor

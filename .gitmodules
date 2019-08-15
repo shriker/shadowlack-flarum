@@ -1,3 +1,6 @@
 [submodule "shadowlack-wiki"]
 	path = public/wiki
-	url = git@github.com:shriker/shadowlack-wiki.git
+	url = https://github.com/shriker/shadowlack-wiki.git
+[submodule "public/wiki"]
+	path = public/wiki
+	url = https://github.com/shriker/shadowlack-wiki.git
