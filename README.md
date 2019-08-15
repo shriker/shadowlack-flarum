@@ -16,10 +16,19 @@ cd shadowlack-flarum/public
 php -S 127.0.0.1:8000
 ```
 
-## Installation
+## Installing
 
 ```bash
 composer install
+php flarum migrate
+```
+
+## Updating
+
+```bash
+composer update
+php flarum migrate
+php flarum cache:clear
 ```
 
 ## Shadowlack Project

@@ -1,0 +1,3 @@
+[submodule "shadowlack-wiki"]
+	path = public/wiki
+	url = git@github.com:shriker/shadowlack-wiki.git
