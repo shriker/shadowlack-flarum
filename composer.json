@@ -4,11 +4,9 @@
   "homepage": "https://shadowlack.com/",
   "license": "MIT",
   "require": {
-    "clarkwinkelmann/catch-the-fish": "^0.1.1",
     "flagrow/mason": "^0.3.1",
     "flagrow/upload": "*",
     "flarum/approval": "^0.1.0",
-    "flarum/auth-github": "^0.1.0",
     "flarum/auth-twitter": "^0.1.0",
     "flarum/bbcode": "^0.1.0",
     "flarum/core": "^0.1.0",
@@ -34,7 +32,9 @@
     "fof/reactions": "^0.1.0",
     "fof/split": "*",
     "reflar/nightmode": "^0.2.0",
-    "shriker/flarum-oekaki": "*@dev"
+    "squeevee/flarum-ext-fancybox": "^0.2.0@beta",
+    "shriker/flarum-oekaki": "*@dev",
+    "shriker/flarum-ciphers": "*@dev"
   },
   "config": {
     "preferred-install": "dist",

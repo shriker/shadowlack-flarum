@@ -1,0 +1,3 @@
+# block them all for now
+User-agent: *
+Disallow: /

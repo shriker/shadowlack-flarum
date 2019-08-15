@@ -1,0 +1,64 @@
+language: php
+
+cache:
+  directories:
+    - $HOME/.composer/cache
+    - $HOME/.npm
+
+install:
+  - composer install
+  - mysql -e 'CREATE DATABASE flarum_test;'
+
+before_script:
+  - echo 'error_reporting = E_ALL' >> ~/.phpenv/versions/$(phpenv version-name)/etc/conf.d/travis.ini
+
+jobs:
+  include:
+    - php: 7.1
+      services:
+        - mysql
+      env: DB=mysql
+
+    - php: 7.2
+      services:
+        - mysql
+      env: DB=mysql
+
+    - php: 7.3
+      services:
+        - mysql
+      env: DB=mysql
+
+    - php: 7.1
+      addons:
+        mariadb: '10.2'
+      env: DB=mariadb
+
+    - php: 7.2
+      addons:
+        mariadb: '10.2'
+      env: DB=mariadb
+
+    - php: 7.3
+      addons:
+        mariadb: '10.2'
+      env: DB=mariadb
+
+    - php: 7.2
+      services:
+        - mysql
+      env: DB=mysql PREFIX=forum_
+
+    - php: 7.4snapshot
+      services:
+        - mysql
+      env: DB=mysql
+
+    - php: 7.4snapshot
+      addons:
+        mariadb: '10.2'
+      env: DB=mariadb
+
+matrix:
+  allow_failures:
+    - php: 7.4snapshot
