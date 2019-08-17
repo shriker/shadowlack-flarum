@@ -8,6 +8,7 @@ Working repository for Shadowlack's Flarum installation. Guaranteed to be unstab
 
 Shadowlack is a free dice-less Play-by-Post game and imaginary fictional world setting (geofiction) that revolves around the planet Ramath-lehi.
 
+* [shadowlack-guts](https://github.com/shriker/shadowlack-guts)
 * [shadowlack-wiki](https://github.com/shriker/shadowlack-wiki)
 
 ## Server Requirements

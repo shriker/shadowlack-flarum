@@ -35,9 +35,9 @@
     "fof/spamblock": "^0.2.1",
     "fof/split": "*",
     "reflar/stopforumspam": "^0.1.5",
-    "shriker/flarum-ciphers": "*@dev",
     "shriker/flarum-oekaki": "*@dev",
-    "squeevee/flarum-ext-fancybox": "^0.2.0@beta"
+    "shriker/shadowlack-ciphers": "*@dev",
+    "shriker/shadowlack-guts": "*@dev"
   },
   "config": {
     "preferred-install": "dist",
